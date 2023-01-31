@@ -1,0 +1,26 @@
+#count{
+  background: #FF5437;
+  padding: 80px 0;
+  .count{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &--block{
+      h1{
+        font-weight: 400;
+        font-size: 96px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+      p{
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 30px;
+      }
+    }
+  }
+}
